@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored — never commit it.
+
+project_id         = "your-gcp-project-id"
+region             = "australia-southeast2"
+service_name       = "maps-nl-proxy"
+image_tag          = "1.0.0"
+frontend_image_tag = "1.0.0"
+anthropic_key      = "sk-ant-..."
+google_maps_key    = "AIza..."
+google_routes_key  = "AIza..."
+allowed_origins    = "https://food-crawl-frontend-xxxxx.run.app"
+domain_name        = ""

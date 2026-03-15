@@ -1,0 +1,26 @@
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+
+# Dependencies
+node_modules/
+
+# Next.js
+web/.next/
+web/out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+web/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
